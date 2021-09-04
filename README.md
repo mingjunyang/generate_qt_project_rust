@@ -3,8 +3,8 @@
 简单的将rust项目创建为一个qtcreator项目，方便qt-creator编辑代码。
 
 首先在qt-creator的language client中正确安装`rust analyzer`或者`rls`。
-[1!](img/rust-analyzer.png)
-[2!](img/rust-lsp.png)
+![1](img/rust-analyzer.png)
+![2](img/rust-lsp.png)
 
 然后执行脚本 `./qtcreator_rust_project_gen.sh ../RUST/rustls`
 即可生成qt-qtcreator需要的工程文件。
